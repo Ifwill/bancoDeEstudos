@@ -1,0 +1,21 @@
+INSERT INTO produto (nome, descricao, numeracao)
+VALUES
+    ('anel', '10cm', 1),
+    ('anel','5cm',2),
+    ('rolamento','10cm',3),
+    ('rolamento','5cm',4);
+    
+INSERT INTO fornecedor (nome, contato, infPagamento)
+VALUES
+    ('gusta', '1699999999', 'n'),
+    ('bruno','1688888888','n'),
+    ('ze','1677777777','n'),
+    ('roberto','1666666666','n');
+    
+INSERT INTO pedidodecompra (dataPedido, pedidoStatus, qualidadeSolida)
+VALUES
+	('18/04/2024','n','solido'),
+    ('1/05/2024','n','liquido'),
+    ('07/05/2024','n','liquido'),
+    ('20/02/2024','n','solido');
+    

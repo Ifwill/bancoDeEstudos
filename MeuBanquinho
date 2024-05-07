@@ -1,6 +1,6 @@
 create database meuBanquinho;
 
-create table poduto (
+create table produto (
 	nome varchar(55),
     descricao varchar(100),
     numeracao int

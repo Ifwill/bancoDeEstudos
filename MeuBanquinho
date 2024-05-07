@@ -15,7 +15,7 @@ create table fornecedor(
 create table pedidoDeCompra(
  dataPedido varchar(55),
  pedidoStatus char(1),
- quanlidadeSolida varchar(55)
+ qualidadeSolida varchar(55)
  );
  
 create table armazenamento(

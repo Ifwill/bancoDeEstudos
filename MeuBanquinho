@@ -9,7 +9,7 @@ create table produto (
 create table fornecedor(
  nome varchar(55),
  contato Varchar(55),
- infPagamento varchar(55)
+ infPagamento char(1)
  );
  
 create table pedidoDeCompra(

@@ -1,0 +1,31 @@
+create database meuBanquinho;
+
+create table poduto (
+	nome varchar(55),
+    descricao varchar(100),
+    numeracao int
+);
+
+create table fornecedor(
+ nome varchar(55),
+ contato Varchar(55),
+ infPagamento varchar(55)
+ );
+ 
+create table pedidoDeCompra(
+ dataPedido varchar(55),
+ pedidoStatus char(1),
+ quanlidadeSolida varchar(55)
+ );
+ 
+create table armazenamento(
+ endereco varchar(55),
+ capacidadeArmazenamento int
+ );
+ 
+create table movimentoDeEstoque(
+ quantidade int,
+ qualidade varchar(55),
+ dataMovimento varchar(55),
+ movimentacao varchar(55)
+ );
